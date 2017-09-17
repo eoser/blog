@@ -1,0 +1,25 @@
+2017-09-17 14:28:22: -- Analysis Started by On File Change Incremental
+2017-09-17 14:28:22: 变更：13， 冲突：， 复制时间：， 复制状态：， 错误： , All: 111
+2017-09-17 14:28:22: Left to Right: Delete File: 13 
+2017-09-17 14:28:22: == Sync Started by On File Change Incremental
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/COMMIT_EDITMSG'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/config'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/description'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/FETCH_HEAD'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/HEAD'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/index'
+2017-09-17 14:28:22: 删除文件 'J:/GitHub/eoser.github.io/.git/packed-refs'
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git/hooks'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git/info'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git/logs'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git/objects'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git/refs'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: 删除文件夹 'J:/GitHub/eoser.github.io/.git'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:22: ===== ：同步完毕。时间：00:00:00，速度： 0 字节/s =====, 项目同步未必： 7，错误： 6
+2017-09-17 14:28:22: 

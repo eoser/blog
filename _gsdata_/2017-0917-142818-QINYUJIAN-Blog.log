@@ -1,0 +1,11 @@
+2017-09-17 14:28:19: -- Analysis Started by On File Change Incremental
+2017-09-17 14:28:19: two items with exactly the same name: /.git/FETCH_HEAD
+2017-09-17 14:28:19: 分析完毕并发现有错误。点击错误按钮查看全部错误项目。
+2017-09-17 14:28:19: 变更：2， 冲突：， 复制时间：， 复制状态：， 错误： 1, All: 111
+2017-09-17 14:28:19: Left to Right: Delete File: 2 
+2017-09-17 14:28:19: == Sync Started by On File Change Incremental
+2017-09-17 14:28:19: 删除文件 'J:/GitHub/eoser.github.io/.git/FETCH_HEAD'
+2017-09-17 14:28:19: 删除文件夹 'J:/GitHub/eoser.github.io/.git'
+- 错误: Cannot delete folder: Cannot delete folder: 目录不是空的。  (error 145)
+2017-09-17 14:28:19: ===== ：同步完毕。时间：00:00:00，速度： 0 字节/s =====, 项目同步未必： 1，错误： 1
+2017-09-17 14:28:19: 

@@ -1,0 +1,54 @@
+2017-09-17 14:23:18: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2017-09-17 14:23:18: 左侧: State file does not exist: J:/GitHub/Blog/public/_gsdata_/_file_state_v4._gs
+2017-09-17 14:23:18: 右侧: State file does not exist: J:/GitHub/eoser.github.io/_gsdata_/_file_state_v4._gs
+2017-09-17 14:23:18: 变更：44， 冲突：， 复制时间：， 复制状态：， 错误： , All: 46
+2017-09-17 14:23:18: Left to Right: Copy File: 41 Delete File: 3 
+2017-09-17 14:23:18: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2017-09-17 14:23:18: 删除文件 'J:/GitHub/eoser.github.io/_config.yml'
+2017-09-17 14:23:18: 删除文件 'J:/GitHub/eoser.github.io/CNAME'
+2017-09-17 14:23:18: 删除文件 'J:/GitHub/eoser.github.io/index.md'
+2017-09-17 14:23:18: On File Change Monitoring started on file:///J:/GitHub/Blog/public
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/2017'
+2017-09-17 14:23:18: On File Change Monitoring started on file:///J:/GitHub/eoser.github.io
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/2017/09'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/2017/09/17'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/2017/09/17/hello-world'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/archives'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/archives/2017'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/archives/2017/09'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/css'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/css/fonts'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/css/images'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/fancybox'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/fancybox/helpers'
+2017-09-17 14:23:18: 创建文件夹 'J:/GitHub/eoser.github.io/js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/2017/09/17/hello-world/index.html' -> 'J:/GitHub/eoser.github.io/2017/09/17/hello-world/index.html'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/archives/2017/09/index.html' -> 'J:/GitHub/eoser.github.io/archives/2017/09/index.html'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/archives/2017/index.html' -> 'J:/GitHub/eoser.github.io/archives/2017/index.html'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/archives/index.html' -> 'J:/GitHub/eoser.github.io/archives/index.html'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/fonts/fontawesome-webfont.eot' -> 'J:/GitHub/eoser.github.io/css/fonts/fontawesome-webfont.eot'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/fonts/fontawesome-webfont.svg' -> 'J:/GitHub/eoser.github.io/css/fonts/fontawesome-webfont.svg'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/fonts/fontawesome-webfont.ttf' -> 'J:/GitHub/eoser.github.io/css/fonts/fontawesome-webfont.ttf'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/fonts/fontawesome-webfont.woff' -> 'J:/GitHub/eoser.github.io/css/fonts/fontawesome-webfont.woff'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/fonts/FontAwesome.otf' -> 'J:/GitHub/eoser.github.io/css/fonts/FontAwesome.otf'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/images/banner.jpg' -> 'J:/GitHub/eoser.github.io/css/images/banner.jpg'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/css/style.css' -> 'J:/GitHub/eoser.github.io/css/style.css'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/blank.gif' -> 'J:/GitHub/eoser.github.io/fancybox/blank.gif'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/fancybox_loading.gif' -> 'J:/GitHub/eoser.github.io/fancybox/fancybox_loading.gif'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/fancybox_loading@2x.gif' -> 'J:/GitHub/eoser.github.io/fancybox/fancybox_loading@2x.gif'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/fancybox_overlay.png' -> 'J:/GitHub/eoser.github.io/fancybox/fancybox_overlay.png'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/fancybox_sprite.png' -> 'J:/GitHub/eoser.github.io/fancybox/fancybox_sprite.png'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/fancybox_sprite@2x.png' -> 'J:/GitHub/eoser.github.io/fancybox/fancybox_sprite@2x.png'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/fancybox_buttons.png' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/fancybox_buttons.png'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/jquery.fancybox-buttons.css' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/jquery.fancybox-buttons.css'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/jquery.fancybox-buttons.js' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/jquery.fancybox-buttons.js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/jquery.fancybox-media.js' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/jquery.fancybox-media.js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/jquery.fancybox-thumbs.css' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/jquery.fancybox-thumbs.css'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/helpers/jquery.fancybox-thumbs.js' -> 'J:/GitHub/eoser.github.io/fancybox/helpers/jquery.fancybox-thumbs.js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/jquery.fancybox.css' -> 'J:/GitHub/eoser.github.io/fancybox/jquery.fancybox.css'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/jquery.fancybox.js' -> 'J:/GitHub/eoser.github.io/fancybox/jquery.fancybox.js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/fancybox/jquery.fancybox.pack.js' -> 'J:/GitHub/eoser.github.io/fancybox/jquery.fancybox.pack.js'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/index.html' -> 'J:/GitHub/eoser.github.io/index.html'
+2017-09-17 14:23:18: 新建复制 'J:/GitHub/Blog/public/js/script.js' -> 'J:/GitHub/eoser.github.io/js/script.js'
+2017-09-17 14:23:18: ===== ：同步完毕。时间：00:00:00，速度： 0 字节/s =====, 项目同步未必： 44，错误： 
+2017-09-17 14:23:18: 
