@@ -299,7 +299,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/09/17/我的第一篇博客/" itemprop="url">我的第一篇博客</a></h1>
+                <a class="post-title-link" href="/2017/09/17/我的第一篇博客/" itemprop="url">我的第一篇博客，让bat脚本用管理员权限运行</a></h1>
         
 
         <div class="post-meta">
@@ -375,6 +375,13 @@
           
             <h2 id="bat获取管理员权限"><a href="#bat获取管理员权限" class="headerlink" title="bat获取管理员权限"></a>bat获取管理员权限</h2><h3 id="第一个，WIN10亲测可以"><a href="#第一个，WIN10亲测可以" class="headerlink" title="第一个，WIN10亲测可以"></a>第一个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">%1 mshta vbscript:CreateObject(<span class="string">"Shell.Application"</span>).ShellExecute(<span class="string">"cmd.exe"</span>,<span class="string">"/c %~s0 ::"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;&amp;<span class="built_in">exit</span></div></pre></td></tr></table></figure>
 <h3 id="第二个，WIN10亲测可以"><a href="#第二个，WIN10亲测可以" class="headerlink" title="第二个，WIN10亲测可以"></a>第二个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">%1 %2 </div><div class="line">ver|find <span class="string">"5."</span>&gt;nul&amp;&amp;goto :st </div><div class="line">mshta vbscript:createobject(<span class="string">"shell.application"</span>).shellexecute(<span class="string">"%~s0"</span>,<span class="string">"goto :st"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;goto :eof </div><div class="line">:st </div><div class="line">copy <span class="string">"%~0"</span> <span class="string">"%windir%\system32\"</span></div></pre></td></tr></table></figure>
+<hr>
+<p>好啦！写完了！秀一波自己原创的LOGO！难看勿喷！！！</p>
+<p><img src="/logo/logo.png" alt=""></p>
+<p><img src="/logo/logo美化.png" alt=""></p>
+<p><img src="/logo/logo透明.png" alt=""></p>
+<p><img src="/logo/logo透明美化.png" alt=""></p>
+
           
         
       
