@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eoser&#39;s Blog!</title>
+  
+  <subtitle>爱学习！爱生活！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.eoser.ml/"/>
+  <updated>2017-09-18T07:08:44.114Z</updated>
+  <id>http://blog.eoser.ml/</id>
+  
+  <author>
+    <name>Eoser</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://blog.eoser.ml/2017/09/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://blog.eoser.ml/2017/09/17/我的第一篇博客/</id>
+    <published>2017-09-17T06:39:05.000Z</published>
+    <updated>2017-09-18T07:08:44.114Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="bat获取管理员权限"><a href="#bat获取管理员权限" class="headerlink" title="bat获取管理员权限"></a>bat获取管理员权限</h2><h3 id="第一个，WIN10亲测可以"><a href="#第一个，WIN10亲测可以" class="headerlink" title="第一个，WIN10亲测可以"></a>第一个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">%1 mshta vbscript:CreateObject(<span class="string">"Shell.Application"</span>).ShellExecute(<span class="string">"cmd.exe"</span>,<span class="string">"/c %~s0 ::"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;&amp;<span class="built_in">exit</span></div></pre></td></tr></table></figure><h3 id="第二个，WIN10亲测可以"><a href="#第二个，WIN10亲测可以" class="headerlink" title="第二个，WIN10亲测可以"></a>第二个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">%1 %2 </div><div class="line">ver|find <span class="string">"5."</span>&gt;nul&amp;&amp;goto :st </div><div class="line">mshta vbscript:createobject(<span class="string">"shell.application"</span>).shellexecute(<span class="string">"%~s0"</span>,<span class="string">"goto :st"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;goto :eof </div><div class="line">:st </div><div class="line">copy <span class="string">"%~0"</span> <span class="string">"%windir%\system32\"</span></div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;bat获取管理员权限&quot;&gt;&lt;a href=&quot;#bat获取管理员权限&quot; class=&quot;headerlink&quot; title=&quot;bat获取管理员权限&quot;&gt;&lt;/a&gt;bat获取管理员权限&lt;/h2&gt;&lt;h3 id=&quot;第一个，WIN10亲测可以&quot;&gt;&lt;a href=&quot;#第一个，WIN1
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://blog.eoser.ml/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="bat" scheme="http://blog.eoser.ml/tags/bat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo使用帮助篇</title>
+    <link href="http://blog.eoser.ml/2017/09/17/HEXO%E5%B8%AE%E5%8A%A9%E7%AF%87/"/>
+    <id>http://blog.eoser.ml/2017/09/17/HEXO帮助篇/</id>
+    <published>2017-09-17T06:14:37.945Z</published>
+    <updated>2017-09-18T07:04:10.020Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="创建新的博文"><a href="#创建新的博文" class="headerlink" title="创建新的博文"></a>创建新的博文</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"新博文的名字"</span></div></pre></td></tr></table></figure><p>想知道更多相关？<a href="https://hexo.io/zh-cn/docs/writing.html" target="_blank" rel="external">详情</a></p><h2 id="本地运行服务部署"><a href="#本地运行服务部署" class="headerlink" title="本地运行服务部署"></a>本地运行服务部署</h2><h3 id="部署好之后访问http-localhost-4000"><a href="#部署好之后访问http-localhost-4000" class="headerlink" title="部署好之后访问http://localhost:4000"></a>部署好之后访问<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>想知道更多相关？<a href="https://hexo.io/zh-cn/docs/server.html" target="_blank" rel="external">详情</a></p><h2 id="生成静态网页"><a href="#生成静态网页" class="headerlink" title="生成静态网页"></a>生成静态网页</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>想知道更多相关？<a href="https://hexo.io/zh-cn/docs/generating.html" target="_blank" rel="external">详情</a></p><h3 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>想知道更多相关？<a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="external">详情</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;创建新的博文&quot;&gt;&lt;a href=&quot;#创建新的博文&quot; class=&quot;headerlink&quot; title=&quot;创建新的博文&quot;&gt;&lt;/a&gt;创建新的博文&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://blog.eoser.ml/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="帮助" scheme="http://blog.eoser.ml/tags/%E5%B8%AE%E5%8A%A9/"/>
+    
+  </entry>
+  
+</feed>
