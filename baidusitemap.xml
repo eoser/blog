@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://blog.eoser.ml/2017/09/17/HEXO%E5%B8%AE%E5%8A%A9%E7%AF%87/</loc>
+    <lastmod>2017-09-19T09:41:58.309Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo使用帮助篇</title>
+        <pubTime>2017-09-17T06:14:37.945Z</pubTime>
+        
+        <tag>帮助</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://blog.eoser.ml/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://blog.eoser.ml/2017/09/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2017-09-18T14:57:17.724Z</lastmod>
     <data>
@@ -24,25 +45,4 @@
 
     
     
-    
-    
-  <url>
-    <loc>http://blog.eoser.ml/2017/09/17/HEXO%E5%B8%AE%E5%8A%A9%E7%AF%87/</loc>
-    <lastmod>2017-09-18T07:04:10.020Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo使用帮助篇</title>
-        <pubTime>2017-09-17T06:14:37.945Z</pubTime>
-        
-        <tag>帮助</tag>
-         
-         
-           
-             
-              <breadCrumb title="学习" url="http://blog.eoser.ml/categories/%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>
