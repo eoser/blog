@@ -97,18 +97,18 @@
 
 
 
-<meta name="description" content="###在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。  在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handle">
+<meta name="description" content="在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。 在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handleMess">
 <meta name="keywords" content="Android,安卓,Handler">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android刷新界面（Handler）">
 <meta property="og:url" content="http://blog.eoser.ml/2017/09/25/Android刷新界面（Handler）/index.html">
 <meta property="og:site_name" content="Eoser&#39;s Blog!">
-<meta property="og:description" content="###在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。  在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handle">
+<meta property="og:description" content="在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。 在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handleMess">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-25T03:17:19.076Z">
+<meta property="og:updated_time" content="2017-09-25T05:48:59.480Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android刷新界面（Handler）">
-<meta name="twitter:description" content="###在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。  在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handle">
+<meta name="twitter:description" content="在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。 在刷新Activity添加Handler  123456789// 刷新界面private Handler mHandler = new Handler() &amp;#123;	public void handleMessage(Message msg) &amp;#123;		super.handleMess">
 
 
 
@@ -370,11 +370,11 @@
       
 
       
-        <p>###在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。</p>
-<ul>
+        <h3 id="在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。"><a href="#在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。" class="headerlink" title="在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。"></a>在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。</h3><ul>
 <li>在刷新Activity添加Handler</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">// 刷新界面</div><div class="line">private Handler mHandler = new <span class="function"><span class="title">Handler</span></span>() &#123;</div><div class="line">	public void handleMessage(Message msg) &#123;</div><div class="line">		super.handleMessage(msg);</div><div class="line">		String str = (String) msg.obj;</div><div class="line">		//根据获取的消息来执行刷新任务</div><div class="line">		Log.e(<span class="string">"获取的消息"</span>,<span class="string">"str"</span>);</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <ul>
 <li>同Activity中调用Handler</li>
 </ul>
@@ -480,8 +480,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">Eoser</p>
@@ -549,6 +558,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。"><span class="nav-number">1.</span> <span class="nav-text">在安卓里，界面需要频繁的变化，需要用handler来刷新界面才能稳定运行。下面就是我使用的心得笔记。</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

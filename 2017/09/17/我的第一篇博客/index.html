@@ -97,22 +97,22 @@
 
 
 
-<meta name="description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit 第二个，WIN10亲测可以12345%1 %2 ver|find &quot;5.&quot;&amp;gt;nul&amp;a">
+<meta name="description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit">
 <meta name="keywords" content="bat">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的第一篇博客，让bat脚本用管理员权限运行">
 <meta property="og:url" content="http://blog.eoser.ml/2017/09/17/我的第一篇博客/index.html">
 <meta property="og:site_name" content="Eoser&#39;s Blog!">
-<meta property="og:description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit 第二个，WIN10亲测可以12345%1 %2 ver|find &quot;5.&quot;&amp;gt;nul&amp;a">
+<meta property="og:description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://blog.eoser.ml/logo/logo.png">
 <meta property="og:image" content="http://blog.eoser.ml/logo/logo美化.png">
 <meta property="og:image" content="http://blog.eoser.ml/logo/logo透明.png">
 <meta property="og:image" content="http://blog.eoser.ml/logo/logo透明美化.png">
-<meta property="og:updated_time" content="2017-09-18T14:57:17.724Z">
+<meta property="og:updated_time" content="2017-09-25T05:58:37.638Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的第一篇博客，让bat脚本用管理员权限运行">
-<meta name="twitter:description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit 第二个，WIN10亲测可以12345%1 %2 ver|find &quot;5.&quot;&amp;gt;nul&amp;a">
+<meta name="twitter:description" content="bat获取管理员权限第一个，WIN10亲测可以1%1 mshta vbscript:CreateObject(&quot;Shell.Application&quot;).ShellExecute(&quot;cmd.exe&quot;,&quot;/c %~s0 ::&quot;,&quot;&quot;,&quot;runas&quot;,1)(window.close)&amp;amp;&amp;amp;exit">
 <meta name="twitter:image" content="http://blog.eoser.ml/logo/logo.png">
 
 
@@ -376,6 +376,7 @@
 
       
         <h2 id="bat获取管理员权限"><a href="#bat获取管理员权限" class="headerlink" title="bat获取管理员权限"></a>bat获取管理员权限</h2><h3 id="第一个，WIN10亲测可以"><a href="#第一个，WIN10亲测可以" class="headerlink" title="第一个，WIN10亲测可以"></a>第一个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">%1 mshta vbscript:CreateObject(<span class="string">"Shell.Application"</span>).ShellExecute(<span class="string">"cmd.exe"</span>,<span class="string">"/c %~s0 ::"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;&amp;<span class="built_in">exit</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h3 id="第二个，WIN10亲测可以"><a href="#第二个，WIN10亲测可以" class="headerlink" title="第二个，WIN10亲测可以"></a>第二个，WIN10亲测可以</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">%1 %2 </div><div class="line">ver|find <span class="string">"5."</span>&gt;nul&amp;&amp;goto :st </div><div class="line">mshta vbscript:createobject(<span class="string">"shell.application"</span>).shellexecute(<span class="string">"%~s0"</span>,<span class="string">"goto :st"</span>,<span class="string">""</span>,<span class="string">"runas"</span>,1)(window.close)&amp;goto :eof </div><div class="line">:st </div><div class="line">copy <span class="string">"%~0"</span> <span class="string">"%windir%\system32\"</span></div></pre></td></tr></table></figure>
 <hr>
 <p>好啦！写完了！秀一波自己原创的LOGO！难看勿喷！！！</p>
